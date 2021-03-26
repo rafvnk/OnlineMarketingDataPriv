@@ -1,5 +1,6 @@
 <!DOCTYPE html>
-<html lang="en" xmlns="http://www.w3.org/1999/html">
+<html lang="en" xmlns="http://www.w3.org/1999/html" xmlns="http://www.w3.org/1999/html"
+      xmlns="http://www.w3.org/1999/html">
 <head>
     <!-- Global site tag (gtag.js) - Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-KGFTBLWJ24"></script>
@@ -40,7 +41,137 @@
                 font-size: 3.5rem;
             }
         }
+
+        .blog-post {
+            margin-bottom: 4rem;
+            padding-left:25px;
+            padding-right: 50px;
+        }
+        .blog-post-title {
+            margin-bottom: .25rem;
+            padding-right: 50px;
+        }
+        .blog-post-meta {
+            margin-bottom: 1.25rem;
+            color: #727272;
+            padding-right: 50px;
+        }
+
+        .my-5 pt-5 text-muted text-center text-small{
+            align-content: center;
+        }
+        .list-inline{
+            text-align: center;
+        }
+        .mb-1{
+            text-align: center;
+        }
+
+        .blog-header {
+            line-height: 1;
+            border-bottom: 1px solid #e5e5e5;
+        }
+
+        .blog-header-logo {
+            font-family: "Playfair Display", Georgia, "Times New Roman", serif/*rtl:Amiri, Georgia, "Times New Roman", serif*/;
+            font-size: 2.25rem;
+        }
+
+        .blog-header-logo:hover {
+            text-decoration: none;
+        }
+
+        h1, h2, h3, h4, h5, h6 {
+            font-family: "Playfair Display", Georgia, "Times New Roman", serif/*rtl:Amiri, Georgia, "Times New Roman", serif*/;
+        }
+
+        .display-4 {
+            font-size: 2.5rem;
+        }
+        @media (min-width: 768px) {
+            .display-4 {
+                font-size: 3rem;
+            }
+        }
+
+        .nav-scroller {
+            position: relative;
+            z-index: 2;
+            height: 2.75rem;
+            overflow-y: hidden;
+        }
+
+        .nav-scroller .nav {
+            display: flex;
+            flex-wrap: nowrap;
+            padding-bottom: 1rem;
+            margin-top: -1px;
+            overflow-x: auto;
+            text-align: center;
+            white-space: nowrap;
+            -webkit-overflow-scrolling: touch;
+        }
+
+        .nav-scroller .nav-link {
+            padding-top: .75rem;
+            padding-bottom: .75rem;
+            font-size: .875rem;
+        }
+
+        .card-img-right {
+            height: 100%;
+            border-radius: 0 3px 3px 0;
+        }
+
+        .flex-auto {
+            flex: 0 0 auto;
+        }
+
+        .h-250 { height: 250px; }
+        @media (min-width: 768px) {
+            .h-md-250 { height: 250px; }
+        }
+
+        /* Pagination */
+        .blog-pagination {
+            margin-bottom: 4rem;
+        }
+        .blog-pagination > .btn {
+            border-radius: 2rem;
+        }
+
+        /*
+         * Blog posts
+         */
+        .blog-post {
+            margin-bottom: 4rem;
+        }
+        .blog-post-title {
+            margin-bottom: .25rem;
+            font-size: 2.5rem;
+        }
+        .blog-post-meta {
+            margin-bottom: 1.25rem;
+            color: #727272;
+        }
+
+        /*
+         * Footer
+         */
+        .blog-footer {
+            padding: 2.5rem 0;
+            color: #727272;
+            text-align: center;
+            background-color: #f9f9f9;
+            border-top: .05rem solid #e5e5e5;
+        }
+        .blog-footer p:last-child {
+            margin-bottom: 0;
+        }
+
+
     </style>
+
 
 </head>
 <body>
@@ -48,6 +179,7 @@
 <!-- Navbar here -->
 <div class="container">
     <!-- Content here -->
+
     <!-- Image and text -->
     <nav class="navbar fixed-top .bg-light">
         <div class="container-fluid">
@@ -78,6 +210,34 @@
     </nav>
 </div>
 
+<section>
+    <div class="jumbotron">
+        <div class="container text-center">
+            <h2>Maximum Online Security</h2>
+            <p>Ways to improve your anonymity online.</p>
+        </div>
+    </div>
+</section>
+
+<article class="blog-post">
+    <h2 class="blog-post-title">Exposed information</h2>
+    <p class="blog-post-meta">March 22, 2021 by <a >Rafael Von-Klaveren</a></p>
+
+    <img src="https://cdn.pixabay.com/photo/2016/11/19/22/52/coding-1841550_1280.jpg" height="250" width="250" align="left"><p>The internet is vastly made up of information and data. Cybersecurity crime is a huge problem within society. Credit card numbers being leaked by huge databases, health care records becoming compromised, and even nuclear plant centrifuges getting hacked. These are just some of the problems which have been tapped in by cyber criminals. They find exploitations within hardware and software in order to commit these acts or it’s based off by the unintentional decision making of the users who use the software. There is no certain profile when it comes to cyber criminals. The spectrum is very wide, it can range from a terrorist who’s trying to inflict major damage to a group or organization to a teenager in suburbia who’s competing for bragging rights. Cyber crime has been such a problem that major armies have a division where they strictly focus on cyber related problems. They even say the next World War wouldn’t be fought with weapons, but with computers. These computers would focus on shutting down opposing nations water supplies, energy grids, and transportation systems. </p>
+    <hr>
+    <p>Computer viruses, DDos attacks, and phishing websites are all part of cyber crime which can infect computer users. Attackers have different ways of initiating attacks. One being to get you the user to download a program that is actually a virus, for example: If you receive a security update from a company you never heard of on your computer, there could be a good chance that’s a gateway to a virus. Another way attackers can initiate an attack is by exploiting a backdoor from a program you’re using. Once infected by a virus, the virus can steal and delete any of the information on your computer, control your programs, and enable remote operations which means they can access your computer from any computer. DDos attacks are a way that attackers use to down servers. They send billions and billions of packets over to the server which overload the system resulting in an outage. Phishing scams are fake web pages that pose as banks, shopping websites, or even email websites to attain login credentials from the user. 90%  a system gets hacked isn’t because of a security bug, but rather a human mistake. </p>
+    <h2 class="blog-post-title">Social Media</h2>
+    <p class="blog-post-meta">March 22, 2021 by <a >Rafael Von-Klaveren</a></p>
+    <img src="https://cdn.pixabay.com/photo/2014/03/22/22/17/phone-292994_1280.jpg" height="200" width="250" align="left"><p>Nowadays almost everyone has some sort of social media account such as Facebook, Twitter, Instagram, YouTube, etc... These websites enable us to share information about ourselves by creating a profile, which is great to find friends and communicate with others, but it's also a playground for cyber criminals to access information about you. Social media accounts are sought out by cyber criminals to obtain as much information as they can from you to formulate an attack. You can prevent this though by making sure to add only people you know, fiddling with your privacy settings, and making sure to never give anyone access to your profiles/accounts.</p>
+    <hr>
+    <p>It's easy to chuck info into these profiles since most of the time these websites ask you for information, most of the time though these websites don't need all the info they ask for. Make sure to only give information on only required fields to limit your online information exposure. To ensure security and anonymity online you can develop this type of awareness to limit your risk of getting your data/infromation compromised.</p>
+</article><!-- /.blog-post -->
 
 </body>
+<footer class="blog-footer">
+    <p class="mb-1">&copy; Rafael Von-Klaveren 2021</p>
+    <p>
+        <a href="#">Back to top</a>
+    </p>
+</footer>
 </html>

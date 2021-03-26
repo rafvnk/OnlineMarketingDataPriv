@@ -1,5 +1,6 @@
 <!DOCTYPE html>
-<html lang="en" xmlns="http://www.w3.org/1999/html">
+<html lang="en" xmlns="http://www.w3.org/1999/html" xmlns="http://www.w3.org/1999/html"
+      xmlns="http://www.w3.org/1999/html">
 <head>
     <!-- Global site tag (gtag.js) - Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-KGFTBLWJ24"></script>
@@ -40,7 +41,137 @@
                 font-size: 3.5rem;
             }
         }
+
+        .blog-post {
+            margin-bottom: 4rem;
+            padding-left:25px;
+            padding-right: 50px;
+        }
+        .blog-post-title {
+            margin-bottom: .25rem;
+            padding-right: 50px;
+        }
+        .blog-post-meta {
+            margin-bottom: 1.25rem;
+            color: #727272;
+            padding-right: 50px;
+        }
+
+        .my-5 pt-5 text-muted text-center text-small{
+            align-content: center;
+        }
+        .list-inline{
+            text-align: center;
+        }
+        .mb-1{
+            text-align: center;
+        }
+
+        .blog-header {
+            line-height: 1;
+            border-bottom: 1px solid #e5e5e5;
+        }
+
+        .blog-header-logo {
+            font-family: "Playfair Display", Georgia, "Times New Roman", serif/*rtl:Amiri, Georgia, "Times New Roman", serif*/;
+            font-size: 2.25rem;
+        }
+
+        .blog-header-logo:hover {
+            text-decoration: none;
+        }
+
+        h1, h2, h3, h4, h5, h6 {
+            font-family: "Playfair Display", Georgia, "Times New Roman", serif/*rtl:Amiri, Georgia, "Times New Roman", serif*/;
+        }
+
+        .display-4 {
+            font-size: 2.5rem;
+        }
+        @media (min-width: 768px) {
+            .display-4 {
+                font-size: 3rem;
+            }
+        }
+
+        .nav-scroller {
+            position: relative;
+            z-index: 2;
+            height: 2.75rem;
+            overflow-y: hidden;
+        }
+
+        .nav-scroller .nav {
+            display: flex;
+            flex-wrap: nowrap;
+            padding-bottom: 1rem;
+            margin-top: -1px;
+            overflow-x: auto;
+            text-align: center;
+            white-space: nowrap;
+            -webkit-overflow-scrolling: touch;
+        }
+
+        .nav-scroller .nav-link {
+            padding-top: .75rem;
+            padding-bottom: .75rem;
+            font-size: .875rem;
+        }
+
+        .card-img-right {
+            height: 100%;
+            border-radius: 0 3px 3px 0;
+        }
+
+        .flex-auto {
+            flex: 0 0 auto;
+        }
+
+        .h-250 { height: 250px; }
+        @media (min-width: 768px) {
+            .h-md-250 { height: 250px; }
+        }
+
+        /* Pagination */
+        .blog-pagination {
+            margin-bottom: 4rem;
+        }
+        .blog-pagination > .btn {
+            border-radius: 2rem;
+        }
+
+        /*
+         * Blog posts
+         */
+        .blog-post {
+            margin-bottom: 4rem;
+        }
+        .blog-post-title {
+            margin-bottom: .25rem;
+            font-size: 2.5rem;
+        }
+        .blog-post-meta {
+            margin-bottom: 1.25rem;
+            color: #727272;
+        }
+
+        /*
+         * Footer
+         */
+        .blog-footer {
+            padding: 2.5rem 0;
+            color: #727272;
+            text-align: center;
+            background-color: #f9f9f9;
+            border-top: .05rem solid #e5e5e5;
+        }
+        .blog-footer p:last-child {
+            margin-bottom: 0;
+        }
+
+
     </style>
+
 
 </head>
 <body>
@@ -48,6 +179,7 @@
 <!-- Navbar here -->
 <div class="container">
     <!-- Content here -->
+
     <!-- Image and text -->
     <nav class="navbar fixed-top .bg-light">
         <div class="container-fluid">
@@ -78,6 +210,35 @@
     </nav>
 </div>
 
+<section>
+    <div class="jumbotron">
+        <div class="container text-center">
+            <h2>Privacy Threats</h2>
+            <p>Threats to your privacy online.</p>
+        </div>
+    </div>
+</section>
+
+<article class="blog-post">
+    <h2 class="blog-post-title">Browser Fingerprint</h2>
+    <p class="blog-post-meta">March 22, 2021 by <a >Rafael Von-Klaveren</a></p>
+
+    <img src="https://images.unsplash.com/photo-1533895328642-8035bacd565a?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1650&q=80" height="200" width="250" align="left"><p>A browser fingerprint is a unique identifier that is generated to be used to uniquely identify you amongst all internet users. Web pages are composed of HTML, CSS, and Javascript. One of the most powerful tools that is currently being used now is Javascript. If a website has Javascript code running in the background it has the ability to know which browser you’re currently using, OS, device type, and even the model of the device alongside with the timezone you’re currently in, plug ins installed within the browser and even allows it to monitor if your cursor is moving. All of these bits of information is added into the full unique identifier within the browser fingerprint.</p>
+    <hr>
+    <p>How dangerous is this? Well, Scottie from ScottiesTech.Info invested a day working on a browser fingerprinting code from scratch. In one day on working with that code he was able to get it up and running with it uniquely identifying one in eight and a half billion people, which is currently more people on planet earth. This shows the power of browser fingerprints. If in one day, one guy was able to create a powerful tool like that, imagine what these big companies are able to do with a full team and a full month of working on a browser fingerprint.</p>
+
+    <h2 class="blog-post-title">Online Privacy</h2>
+    <p class="blog-post-meta">March 22, 2021 by <a >Rafael Von-Klaveren</a></p>
+    <img src="https://images.unsplash.com/photo-1595666944516-bbb485958fb5?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=2100&q=80" height="200" width="250" align="left"><p>We know nothing is free. Usually when we use “free” online services we hit accept on the terms of service without even thinking about it. When we use these free online services we’re usually tagged as the product. Not us in the physical form, but the virtual data we contribute to the internet. Each time we access a site, like a picture, post a tweet you’re essentially leaving a breadcrumb of info about your online presence available.</p>
+    <hr>
+    <p>Let’s say if you’re someone who keeps a very low profile online. You rarely use social media, engage in online communities, or keep your online usage very low. If someone has access to only your name they’ll still be able to grab data that is made public online. Birthday, home address, cars you own, emails you’ve used in the past, literally everything. One breadcrumb is all people need to essentially obtain this info that can lead to your physical presence. </p>
+</article><!-- /.blog-post --><!-- /.blog-post -->
 
 </body>
+<footer class="blog-footer">
+    <p class="mb-1">&copy; Rafael Von-Klaveren 2021</p>
+    <p>
+        <a href="#">Back to top</a>
+    </p>
+</footer>
 </html>
